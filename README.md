@@ -1,19 +1,12 @@
 # [Wordle Wars](https://wordlewars.ctnicholas.dev)
 
 This repo shows how to build a multiplayer Wordle clone with [Liveblocks](https://liveblocks.io), [Vue](https://vuejs.org/), and [Vite](https://vitejs.dev/).
-
-![Wordle wars screenshot](https://wordlewars.ctnicholas.dev/screenshot.png)
-
+This repo aims to show users how to build a multiplayer Wordle clone utilizing Liveblocks, Vue, and Vite. This repository is forked from 
 ## [Try it out](https://wordlewars.ctnicholas.dev)
 
-
-It's forked from [Vue Wordle](https://github.com/yyx990803/vue-wordle) created by Evan You (@yyx990803), with some multiplayer and extra styling added.
-You can only see your opponent's letters after you've got the word of the day. Scores are saved at the end of the war,
-and a new Wordle becomes available at UTC±00:00 every day. It features a dark mode and a colourblind mode.
-
-![Wordle wars screenshot](https://wordlewars.ctnicholas.dev/screenshot-visible.png)
-
-This repository is open sourced for learning purposes only - the original creator(s) of Wordle own all applicable rights to the game itself.
+## Project Description
+This project recreates the popular New York Times game, Wordle. Wordle rotates out a daily word at UTC 00:00. Players aim to guess the word within 6 attempts, with highlighted squares telling them which letters are utilized. Our version of this game adds a multiplayer function as well as extra styling. Users can only see the opponent's letters after they complete the game, solving the word of the day. Scores are saved at the end through a user profile feature. It features a dark mode and a colourblind mode.
+![Wordle wars screenshot](https://wordlewars.ctnicholas.dev/screenshot.png)
 
 ## Getting started
 
@@ -39,8 +32,24 @@ This repository is open sourced for learning purposes only - the original creato
 
 - Refresh your browser and you should be good to go!
 
+## Contributer Guide
+We welcome contributions to this project! Here is how you can help:
+1) Fork the Repository 
+    - Click the "Fork" button at the top right of this page
+2) Clone Your Fork
+    - Clone your forked repository to your local machine: `git clone https://github.com/your-username/repository-name.git`
+    `cd repository-name`
+3) Create a Branch
+    `git checkout -b feature-name`
+4) Make your changes
+5) Push to Your Fork
+    - `git push origin feature-name`
+6) Open a Pull Request
 
-## More with Liveblocks
-[![Adding live cursors to Next.js](https://www.ctnicholas.dev/images/custom-thumbnails/live-cursors-with-liveblocks.png)](https://www.ctnicholas.dev/articles/live-cursors-with-liveblocks)
-[![Build a live piano](https://livepiano.ctnicholas.dev/screenshot.png)](https://livepiano.ctnicholas.dev)
-[![Build a live basket](https://livebasket.ctnicholas.dev/screenshot.png)](https://livebasket.ctnicholas.dev)
+# Guidelines
+Code Style: Follow the existing code style used in the project.
+Documentation: Update the documentation if your changes affect how the project works.
+Issue Tracking: Please reference the issue number in your pull request
+
+## Credits
+This project is forked from [Vue Wordle](https://github.com/yyx990803/vue-wordle) created by Evan You (@yyx990803). This repository is open sourced for learning purposes only - the original creator(s) of Wordle own all applicable rights to the game itself.
